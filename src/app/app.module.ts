@@ -8,6 +8,8 @@ import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { LoginComponent } from './inicio/login/login.component';
+import { RegisterComponent } from './inicio/register/register.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +17,8 @@ import { MatToolbarModule } from '@angular/material/toolbar';
     HomeComponent,
     HeaderComponent,
     FooterComponent,
+    LoginComponent,
+    RegisterComponent,
   ],
   imports: [
     BrowserModule,
