@@ -3,10 +3,10 @@
     background: #fccb90;
     
     /* Chrome 10-25, Safari 5.1-6 */
-    background: -webkit-linear-gradient(320deg, #07f9a2, #09c184, #0a8967, #0c5149, #0d192b);
+    background: -webkit-linear-gradient(to left, #07f9a2, #09c184, #0a8967, #0c5149);
     
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background: linear-gradient(320deg, #07f9a2, #09c184, #0a8967, #0c5149, #0d192b);
+    background: linear-gradient(to left, #07f9a2, #09c184, #0a8967, #0c5149);
     }
     
     @media (min-width: 768px) {
@@ -16,8 +16,8 @@
     }
     @media (min-width: 769px) {
     .gradient-custom-2 {
-    border-top-right-radius: .3rem;
-    border-bottom-right-radius: .3rem;
+    border-radius: 2rem;
+   
     }
     }
 
