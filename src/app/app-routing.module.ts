@@ -5,17 +5,10 @@ import { LoginComponent } from './inicio/login/login.component';
 import { RegisterComponent } from './inicio/register/register.component';
 
 const routes: Routes = [
-  {path: 'home',
-    component: HomeComponent
-  },
-  {path: 'login',
-    component: LoginComponent
-  },
-  {path: 'register',
-    component: RegisterComponent
-  },
-  {path: '',
-    redirectTo:'login', pathMatch:'full'}
+  { path: 'home',component: HomeComponent },
+  { path: 'login', component: LoginComponent },
+  { path: 'register',component: RegisterComponent },
+  { path: '', redirectTo:'login', pathMatch:'full'}
 ];
 
 @NgModule({
